@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">RoneQuiz</string>
+    <string name="vous_etes_un_homme">Vous_etes_un_homme</string>
+    <string name="vous_etes_une_femme">Vous_etes_une_femme</string>
+    <string name="ah_vous_etes_un_homme">Vous êtes un homme</string>
+    <string name="ah_vous_etes_une_femme">Vous êtes une femme</string>
+    <string name="monsieur">Vous êtes un homme</string>
+    <string name="madame">Madame</string>
+    <string name="bienvenue_quel_est_votre_nom">Bienvenue! Quel est votre nom</string>
+    <string name="jouer">Jouer</string>
+    <string name="science">Waouh! Vous aimez  la science.</string>
+    <string name="litterature">Waouh! Vous aimez la littérature.</string>
+    <string name="entrer_votre_nom_svp">Entrer votre nom svp</string>
+</resources>

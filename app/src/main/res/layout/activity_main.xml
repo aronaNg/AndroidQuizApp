@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.helloarona.controller.MainActivity">
+
+
+    <TextView
+        android:id="@+id/activity_main_greeting_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:text="@string/bienvenue_quel_est_votre_nom" />
+
+    <RadioButton
+        android:id="@+id/monsieur"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onRadioButtonClicked"
+        android:text="Monsieur" />
+
+    <RadioButton
+        android:id="@+id/madame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onRadioButtonClicked"
+        android:text="@string/madame" />
+
+
+    <EditText
+        android:id="@+id/activity_main_name_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:autofillHints=""
+        android:hint="@string/entrer_votre_nom_svp"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/activity_main_play_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:padding="30dp"
+        android:text="@string/jouer" />
+
+    <ImageView
+        android:id="@+id/science"
+        android:layout_width="203dp"
+        android:layout_height="183dp"
+        android:contentDescription="@string/science"
+        android:onClick="showScience"
+        app:srcCompat="@drawable/science2" />
+
+    <ImageView
+        android:id="@+id/litterature"
+        android:layout_width="205dp"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/litterature"
+        android:onClick="showLitterature"
+        app:srcCompat="@drawable/liit" />
+
+
+</LinearLayout>
+
